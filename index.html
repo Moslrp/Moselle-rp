@@ -3,27 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mosl RP - Jeu Roblox </title>
+  <title>Mosl RP - Jeu Roblox</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #ffffff;
+      background-color: #e9ecef;
       margin: 0;
       padding: 0;
-      color:#000000;
+      color: #2c3e50;
     }
     header {
-      background-color: #5193fc;
-      color: red;
+      background-color: #1b262c;
+      color: white;
       text-align: center;
       padding: 20px 10px;
       position: relative;
+      
     }
-    header img.logo {
-      height: 60px;
+    .logo {
       position: absolute;
       left: 20px;
       top: 15px;
+      width: 60px;
+      height: 60px;
+      background-color: #3282b8;
+      color: white;
+      font-weight: 900;
+      font-size: 1.5rem;
+      line-height: 60px;
+      border-radius: 10px;
+      user-select: none;
+      font-family: monospace;
+      text-align: center;
     }
     header h1 {
       margin: 0;
@@ -31,14 +42,14 @@
       font-weight: 700;
     }
     nav {
-      background-color: #5193fc;
+      background-color: #3282b8;
       display: flex;
       justify-content: center;
       padding: 12px 0;
       gap: 25px;
     }
     nav a {
-      color: red;
+      color: white;
       text-decoration: none;
       font-weight: 600;
       font-size: 1.1rem;
@@ -49,9 +60,15 @@
     }
     .banner {
       width: 100%;
-      max-height: 300px;
-      object-fit: cover;
-      display: block;
+      height: 250px;
+      background: linear-gradient(90deg, #3282b8 0%, #bbe1fa 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 3rem;
+      font-weight: 900;
+      user-select: none;
       margin-bottom: 30px;
     }
     main {
@@ -63,7 +80,7 @@
       margin-bottom: 40px;
     }
     h2 {
-      border-bottom: 3px solid #21d3ff;
+      border-bottom: 3px solid #3282b8;
       padding-bottom: 8px;
       margin-bottom: 20px;
       font-weight: 700;
@@ -72,21 +89,9 @@
       font-size: 1.15rem;
       line-height: 1.6;
     }
-    ul {
-      list-style: none;
-      padding-left: 0;
-      font-size: 1.1rem;
-    }
-    ul li {
-      background-color: #2d2de3;
-      margin-bottom: 8px;
-      padding: 10px 15px;
-      border-radius: 5px;
-      max-width: 350px;
-    }
     .btn {
-      background-color: #fff940;
-      color: black;
+      background-color: #3282b8;
+      color: white;
       padding: 12px 25px;
       text-decoration: none;
       border-radius: 6px;
@@ -96,47 +101,42 @@
       transition: background-color 0.3s;
     }
     .btn:hover {
-      background-color: #a2ad39;
+      background-color: #1f5a7a;
+    }
+    .metiers-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .metiers-buttons a {
+      background-color: #3282b8;
+      color: white;
+      text-decoration: none;
+      padding: 12px 18px;
+      font-size: 1rem;
+      border-radius: 8px;
+      display: inline-block;
+      transition: background-color 0.2s ease;
+    }
+    .metiers-buttons a:hover {
+      background-color: #1f5a7a;
     }
     footer {
-      background-color: #302921;
+      background-color: #1b262c;
       color: white;
       text-align: center;
       padding: 15px 10px;
       font-size: 0.9rem;
-    .metiers-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.metiers-buttons a {
-  background-color: #3282b8;
-  color: white;
-  text-decoration: none;
-  padding: 12px 18px;
-  font-size: 1rem;
-  border-radius: 8px;
-  display: inline-block;
-  transition: background-color 0.2s ease;
-}
-
-.metiers-buttons a:hover {
-  background-color: #1f5a7a;
-}
-
     }
   </style>
 </head>
 <body>
   <header>
-    <!-- Remplace 'logo.png' par le chemin de ton logo -->
-    <img src="logo.png" alt="Logo Mosl RP" class="logo" />
+    <div class="logo">MR</div>
     <h1>Mosl RP</h1>
   </header>
 
-  <!-- Remplace 'banner.jpg' par ta bannière -->
-  <img src="banner.jpg" alt="Bannière Mosl RP" class="banner" />
+  <div class="banner">Mosl RP</div>
 
   <nav>
     <a href="#presentation">Présentation</a>
@@ -149,33 +149,32 @@
     <section id="presentation">
       <h2>Présentation du Jeu</h2>
       <p>
-        Bienvenue sur <strong>Mosl RP</strong>, un jeu de rôle immersif sur Roblox,
-        inspiré de la région de Moselle. Plonge dans un univers réaliste où tu peux
-        incarner différents métiers, vivre des aventures passionnantes, et participer
-        à une communauté dynamique.
+        Bienvenue sur <strong>Mosl RP</strong>, un jeu de rôle immersif sur Roblox, inspiré de la région de Moselle.
+        Plonge dans un univers réaliste où tu peux incarner différents métiers, vivre des interventions dynamiques,
+        et rejoindre une communauté passionnée.
       </p>
-      <a class="btn" href="https://www.roblox.com/fr/games/108060541256503/moselle-RP" target="_blank" rel="noopener noreferrer">Jouer maintenant</a>
+      <a class="btn" href="https://www.roblox.com" target="_blank" rel="noopener noreferrer">Jouer maintenant</a>
     </section>
 
-  <section id="metiers">
-  <h2>Métiers disponibles</h2>
-  <div class="metiers-buttons">
-    <a class="btn" href="https://fr.wikipedia.org/wiki/Gendarmerie" target="_blank">👮 Gendarmerie</a>
-    <a class="btn" href="https://fr.wikipedia.org/wiki/Sapeurs-pompiers_(France)" target="_blank">🚒 Pompiers</a>
-    <a class="btn" href="https://fr.wikipedia.org/wiki/Service_d%27aide_médicale_urgente">🚑 SAMU</a>
-    <a class="btn" href="https://fr.wikipedia.org/wiki/Police_municipale_(France)" target="_blank">🚓 Police municipale</a>
-    <a class="btn" href="https://fr.wikipedia.org/wiki/Compagnies_républicaines_de_sécurité" target="_blank">🚔 CRS autoroute</a>
-    <a class="btn" href="https://fr.wikipedia.org/wiki/Direction_interdépartementale_des_Routes" target="_blank">🚧 DIR</a>
-    <a class="btn" href="https://fr.wikipedia.org/wiki/Préfet_(France)" target="_blank">💼 Préfet</a>
-    <a class="btn" href="https://fr.wikipedia.org/wiki/Brink%27s" target="_blank">🏦 BRINKS</a>
-    <a class="btn" href="https://fr.wikipedia.org/wiki/Civil" target="_blank">👨‍👩‍👧‍👦 Civils</a>
-  </div>
-</section>
-
+    <section id="metiers">
+      <h2>Métiers disponibles</h2>
+      <div class="metiers-buttons">
+        <a href="https://fr.wikipedia.org/wiki/Gendarmerie" target="_blank">👮 Gendarmerie</a>
+        <a href="https://fr.wikipedia.org/wiki/Sapeurs-pompiers_(France)" target="_blank">🚒 Pompiers</a>
+        <a href="https://fr.wikipedia.org/wiki/Service_d%27aide_médicale_urgente" target="_blank">🚑 SAMU</a>
+        <a href="https://fr.wikipedia.org/wiki/Police_municipale_(France)" target="_blank">🚓 Police municipale</a>
+        <a href="https://fr.wikipedia.org/wiki/Compagnies_républicaines_de_sécurité" target="_blank">🚔 CRS autoroute</a>
+        <a href="https://fr.wikipedia.org/wiki/Direction_interdépartementale_des_Routes" target="_blank">🚧 DIR</a>
+        <a href="https://fr.wikipedia.org/wiki/Préfet_(France)" target="_blank">💼 Préfet (1 par serveur)</a>
+        <a href="https://fr.wikipedia.org/wiki/Brink%27s" target="_blank">🏦 BRINKS</a>
+        <a href="https://fr.wikipedia.org/wiki/Civil" target="_blank">👨‍👩‍👧‍👦 Civils</a>
+      </div>
+    </section>
 
     <section id="equipe">
       <h2>L'Équipe</h2>
-      <p>Créateur : <strong>Totorigolo_57</strong></p>
+      <p>Créateur du jeu : <strong>Totorigolo_57</strong></p>
+      <p> aide au site :<strong>chat GPT</strong></p>
     </section>
 
     <section id="contact">
@@ -184,14 +183,12 @@
         <a class="btn" href="#" target="_blank" rel="noopener noreferrer">Serveur Discord</a>
         <a class="btn" href="https://youtube.com/@mosellerp-roblox_officel?si=jaZLHdIxyeBwox7N" target="_blank" rel="noopener noreferrer">Chaîne YouTube</a>
         <a class="btn" href="https://mail.google.com/mail/?view=cm&fs=1&to=moselle.rp.roblox@gmail.com" target="_blank" rel="noopener noreferrer">adresse mail pro</a>
-
-
       </p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Mosl RP - Tous droits réservés</p>
+    <p>&copy; 2025 Mosl RP - Tous droits réservés &copy</p>
   </footer>
 </body>
 </html>
