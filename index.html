@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Moselle RP - Jeu Roblox</title>
+  <link rel="icon" href="https://i.postimg.cc/rRSgYk4w/151-D6-BAB-1-A58-4-C4-C-82-DA-6-EA1-FB0-FD5-D8.jpg" type="image/jpeg" />
+
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,27 +14,18 @@
       padding: 0;
       color: #2c3e50;
     }
-<header>
-  <a href="https://postimg.cc/rRSgYk4w">
-    <img src="https://i.postimg.cc/rRSgYk4w/151-D6-BAB-1-A58-4-C4-C-82-DA-6-EA1-FB0-FD5-D8.jpg" alt="Logo Moselle RP" class="logo-img">
-  </a>
-  <h1>Moselle RP</h1>
-</header>
-    .logo {
-      position: absolute;
-      left: 20px;
-      top: 15px;
+    .logo-img {
       width: 60px;
       height: 60px;
-      background-color: #3282b8;
-      color: white;
-      font-weight: 900;
-      font-size: 1.5rem;
-      line-height: 60px;
-      border-radius: 10px;
-      user-select: none;
-      font-family: monospace;
-      text-align: center;
+      margin-right: 15px;
+      border-radius: 8px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
     header h1 {
       margin: 0;
@@ -101,43 +94,35 @@
     .btn:hover {
       background-color: #1f5a7a;
     }
+    .btn-gold {
+      background: linear-gradient(145deg, #fffbe6, #ffd700, #e6c200, #fffbe6);
+      color: #1b262c;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 700;
+      display: inline-block;
+      margin-top: 15px;
+      border: 1px solid #d4af37;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 3px 6px rgba(0, 0, 0, 0.3);
+      transition: transform 0.2s, box-shadow 0.3s;
+      background-size: 200% 200%;
+      animation: shine 4s ease-in-out infinite;
+    }
+    .btn-gold:hover {
+      transform: scale(1.03);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.7), 0 6px 12px rgba(0, 0, 0, 0.4);
+    }
+    @keyframes shine {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
     .metiers-buttons {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
     }
-    .btn-gold {
-  background: linear-gradient(145deg, #fffbe6, #ffd700, #e6c200, #fffbe6);
-  color: #1b262c;
-  padding: 12px 25px;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 700;
-  display: inline-block;
-  margin-top: 15px;
-  border: 1px solid #d4af37;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 3px 6px rgba(0, 0, 0, 0.3);
-  transition: transform 0.2s, box-shadow 0.3s;
-  background-size: 200% 200%;
-  animation: shine 4s ease-in-out infinite;
-}
-
-.btn-gold:hover {
-  transform: scale(1.03);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.7), 0 6px 12px rgba(0, 0, 0, 0.4);
-}
-    @keyframes shine {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
     .metiers-buttons a {
       background-color: #3282b8;
       color: white;
@@ -161,11 +146,13 @@
   </style>
 </head>
 <body>
+
   <header>
-    <div class="logo">MR</div>
+    <a href="https://postimg.cc/rRSgYk4w" target="_blank">
+      <img src="https://i.postimg.cc/rRSgYk4w/151-D6-BAB-1-A58-4-C4-C-82-DA-6-EA1-FB0-FD5-D8.jpg" alt="Logo Moselle RP" class="logo-img">
+    </a>
     <h1>Mosl RP</h1>
   </header>
-
   <div class="banner">Mosl RP</div>
 
   <nav>
